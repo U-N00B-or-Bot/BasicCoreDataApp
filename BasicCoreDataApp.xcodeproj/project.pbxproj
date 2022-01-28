@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		73E2755F27A4393B00D22C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2755E27A4393B00D22C97 /* AppDelegate.swift */; };
 		73E2756127A4393B00D22C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2756027A4393B00D22C97 /* SceneDelegate.swift */; };
-		73E2756327A4393B00D22C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2756227A4393B00D22C97 /* ViewController.swift */; };
 		73E2756627A4393B00D22C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E2756427A4393B00D22C97 /* Main.storyboard */; };
 		73E2756927A4393B00D22C97 /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73E2756727A4393B00D22C97 /* toDoList.xcdatamodeld */; };
 		73E2756B27A4393B00D22C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E2756A27A4393B00D22C97 /* Assets.xcassets */; };
 		73E2756E27A4393B00D22C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E2756C27A4393B00D22C97 /* LaunchScreen.storyboard */; };
+		73E2757627A43A6C00D22C97 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2757527A43A6C00D22C97 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73E2755B27A4393B00D22C97 /* toDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E2755B27A4393B00D22C97 /* BasicCoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicCoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E2755E27A4393B00D22C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E2756027A4393B00D22C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73E2756227A4393B00D22C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73E2756527A4393B00D22C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73E2756827A4393B00D22C97 /* toDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList.xcdatamodel; sourceTree = "<group>"; };
 		73E2756A27A4393B00D22C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E2756D27A4393B00D22C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E2756F27A4393B00D22C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E2757527A43A6C00D22C97 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		73E2755227A4393B00D22C97 = {
 			isa = PBXGroup;
 			children = (
-				73E2755D27A4393B00D22C97 /* toDoList */,
+				73E2755D27A4393B00D22C97 /* BasicCoreDataApp */,
 				73E2755C27A4393B00D22C97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +50,32 @@
 		73E2755C27A4393B00D22C97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73E2755B27A4393B00D22C97 /* toDoList.app */,
+				73E2755B27A4393B00D22C97 /* BasicCoreDataApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		73E2755D27A4393B00D22C97 /* toDoList */ = {
+		73E2755D27A4393B00D22C97 /* BasicCoreDataApp */ = {
 			isa = PBXGroup;
 			children = (
 				73E2755E27A4393B00D22C97 /* AppDelegate.swift */,
 				73E2756027A4393B00D22C97 /* SceneDelegate.swift */,
-				73E2756227A4393B00D22C97 /* ViewController.swift */,
 				73E2756427A4393B00D22C97 /* Main.storyboard */,
+				73E2757527A43A6C00D22C97 /* TableViewController.swift */,
 				73E2756A27A4393B00D22C97 /* Assets.xcassets */,
 				73E2756C27A4393B00D22C97 /* LaunchScreen.storyboard */,
 				73E2756F27A4393B00D22C97 /* Info.plist */,
 				73E2756727A4393B00D22C97 /* toDoList.xcdatamodeld */,
 			);
-			path = toDoList;
+			path = BasicCoreDataApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73E2755A27A4393B00D22C97 /* toDoList */ = {
+		73E2755A27A4393B00D22C97 /* BasicCoreDataApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73E2757227A4393B00D22C97 /* Build configuration list for PBXNativeTarget "toDoList" */;
+			buildConfigurationList = 73E2757227A4393B00D22C97 /* Build configuration list for PBXNativeTarget "BasicCoreDataApp" */;
 			buildPhases = (
 				73E2755727A4393B00D22C97 /* Sources */,
 				73E2755827A4393B00D22C97 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = toDoList;
+			name = BasicCoreDataApp;
 			productName = toDoList;
-			productReference = 73E2755B27A4393B00D22C97 /* toDoList.app */;
+			productReference = 73E2755B27A4393B00D22C97 /* BasicCoreDataApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 73E2755627A4393B00D22C97 /* Build configuration list for PBXProject "toDoList" */;
+			buildConfigurationList = 73E2755627A4393B00D22C97 /* Build configuration list for PBXProject "BasicCoreDataApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73E2755A27A4393B00D22C97 /* toDoList */,
+				73E2755A27A4393B00D22C97 /* BasicCoreDataApp */,
 			);
 		};
 /* End PBXProject section */
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E2756327A4393B00D22C97 /* ViewController.swift in Sources */,
 				73E2755F27A4393B00D22C97 /* AppDelegate.swift in Sources */,
 				73E2756127A4393B00D22C97 /* SceneDelegate.swift in Sources */,
 				73E2756927A4393B00D22C97 /* toDoList.xcdatamodeld in Sources */,
+				73E2757627A43A6C00D22C97 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73E2755627A4393B00D22C97 /* Build configuration list for PBXProject "toDoList" */ = {
+		73E2755627A4393B00D22C97 /* Build configuration list for PBXProject "BasicCoreDataApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73E2757027A4393B00D22C97 /* Debug */,
@@ -354,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73E2757227A4393B00D22C97 /* Build configuration list for PBXNativeTarget "toDoList" */ = {
+		73E2757227A4393B00D22C97 /* Build configuration list for PBXNativeTarget "BasicCoreDataApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73E2757327A4393B00D22C97 /* Debug */,
